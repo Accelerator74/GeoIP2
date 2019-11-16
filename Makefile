@@ -38,8 +38,7 @@ HX_QWERTY = -D_LINUX \
 CPP_FLAGS = -Wno-non-virtual-dtor \
 	-fvisibility-inlines-hidden \
 	-fno-exceptions \
-	-fno-rtti \
-	-std=c++11
+	-fno-rtti
 #
 HX_SO = Release/geoip_util.o \
 	Release/smsdk_ext.o \
