@@ -71,9 +71,9 @@ bool lookupByIp(const char *ip, const char **path, MMDB_entry_data_s *result)
 	}
 
 	MMDB_entry_data_s entry_data;
-	MMDB_aget_value(&lookup.entry, &entry_data, path);
+	mmdb_error = MMDB_aget_value(&lookup.entry, &entry_data, path);
 
-	if (!entry_data.has_data)
+	if (mmdb_error != MMDB_SUCCESS)
 	{
 		return false;
 	}
