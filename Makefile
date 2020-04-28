@@ -6,6 +6,7 @@ HX_SOURCEMOD = ../sourcemod
 HX_INCLUDE = -I. \
 	-I$(HX_SOURCEMOD)/public \
 	-I$(HX_SOURCEMOD)/public/amtl \
+	-I$(HX_SOURCEMOD)/public/amtl/amtl \
 	-I$(HX_SOURCEMOD)/sourcepawn/include
 #
 HX_QWERTY = -D_LINUX \
