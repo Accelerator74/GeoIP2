@@ -4,7 +4,7 @@ This is a rewritten geoip extension from the SourceMod distribution for the new 
 ## Installation
 1. Download latest release version.
 2. Extract all files from the archive with replacement to your game server.
-3. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases
+3. [Register on maxmind.com](https://www.maxmind.com/en/geolite2/signup) to be able to download databases or you can use alternative databases of mmdb format from [DB-API](https://db-ip.com/db)
 4. Put database file to path `addons/sourcemod/configs/geoip/`
 5. Recompile all plugins that use `geoip.inc`.
 
