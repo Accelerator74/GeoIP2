@@ -9,7 +9,7 @@
 /* Basic information exposed publicly */
 #define SMEXT_CONF_NAME			"GeoIP2"
 #define SMEXT_CONF_DESCRIPTION		"Geographical IP information"
-#define SMEXT_CONF_VERSION		"1.1.2"
+#define SMEXT_CONF_VERSION		"1.1.3"
 #define SMEXT_CONF_AUTHOR		"Accelerator, AlliedModders LLC"
 #define SMEXT_CONF_URL			"https://github.com/Accelerator74/GeoIP2"
 #define SMEXT_CONF_LOGTAG		"GEOIP2"
